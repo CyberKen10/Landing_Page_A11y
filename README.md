@@ -47,16 +47,6 @@ A11i Detector está diseñado para:
 - Ampliación del alcance de mercado
 - Reducción de riesgos legales
 
-## 🎨 Diseño y Estética
-
-Esta landing page sigue el mismo estilo y estética que la página de referencia (https://accesibilidadweb.a11ysolutions.com/), caracterizada por:
-
-- **Colores corporativos**: Azul profesional (#0066cc) como color principal
-- **Tipografía moderna**: Inter font para una apariencia limpia y profesional
-- **Diseño responsive**: Optimizado para desktop, tablet y móvil
-- **Accesibilidad integrada**: Cumple con WCAG 2.1 en su propio diseño
-- **Componentes consistentes**: Cards, botones y formularios uniformes
-
 ## 📁 Estructura del Proyecto
 
 ```
