@@ -1,0 +1,46 @@
+/* Button Components */
+.cta-button {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    background-color: #000000;
+    color: white;
+    padding: 16px 32px;
+    border-radius: 9999px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    transition: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px;
+    border: 0px solid rgb(229, 231, 235);
+    height: 60px;
+}
+
+.cta-button:hover {
+    background-color: #333333;
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-hover);
+}
+
+.submit-button {
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-sm);
+    /* background-color removed to allow gradient */
+    color: white;
+    padding: 12px 24px; /* Reduced padding to match the design */
+    border-radius: 6px; /* Reduced border radius */
+    border: none;
+    font-weight: 700; /* Bold font weight */
+    font-size: 16px; /* Smaller font size */
+    transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    /* background-color removed to preserve gradient */
+    transform: scale(1.02);
+    /* box-shadow can be kept if needed */
+}

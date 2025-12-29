@@ -1,0 +1,41 @@
+/* Contact Section */
+.contact-section {
+    background: linear-gradient(to right bottom, #0d9e71, #000000);
+    color: white;
+}
+
+.contact-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-xxl);
+    align-items: start;
+}
+
+.contact-info h2 {
+    margin-bottom: var(--spacing-lg);
+    color: white;
+}
+
+.contact-info p {
+    margin-bottom: var(--spacing-xl);
+    color: rgba(255, 255, 255, 0.9);
+    line-height: var(--line-height-loose);
+}
+
+.contact-benefits {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+
+.benefit-item {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.benefit-item svg {
+    color: #59E88E;
+    flex-shrink: 0;
+}

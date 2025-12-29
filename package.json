@@ -1,0 +1,31 @@
+{
+  "name": "a11i-detector-landing",
+  "version": "1.0.0",
+  "description": "Landing page for A11i Detector - Web accessibility tool",
+  "main": "index.html",
+  "scripts": {
+    "dev": "serve .",
+    "build": "echo 'No build step required for static site'",
+    "lint": "echo 'Add linting if needed'",
+    "test": "echo 'Add testing if needed'"
+  },
+  "keywords": [
+    "accessibility",
+    "wcag",
+    "web-development",
+    "landing-page",
+    "a11y"
+  ],
+  "author": "A11i Detector Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/a11i-detector-landing.git"
+  },
+  "devDependencies": {},
+  "browserslist": [
+    "last 2 versions",
+    "> 1%",
+    "not dead"
+  ]
+}

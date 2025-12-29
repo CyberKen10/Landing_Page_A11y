@@ -1,0 +1,26 @@
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right bottom, #0d9e71, #000000);
+    color: white;
+    padding: calc(var(--spacing-xxl) + 62px) 0 var(--spacing-xxl);
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: var(--font-size-4xl);
+    font-weight: 700;
+    margin-bottom: var(--spacing-lg);
+    line-height: var(--line-height-tight);
+}
+
+.hero-subtitle {
+    font-size: var(--font-size-xl);
+    margin-bottom: var(--spacing-xl);
+    line-height: var(--line-height-loose);
+    opacity: 0.9;
+}
