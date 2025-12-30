@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Globe } from 'lucide-react'
+import logoImage from '/assets/images/logo-green-ntEDZESj.png'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -19,7 +20,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 flex justify-between items-center h-16">
         <div className="flex-shrink-0">
           <img
-            src="/assets/images/logo-green-ntEDZESj.png"
+            src={logoImage}
             alt="A11i Detector Logo"
             className="h-7 w-auto"
             style={{filter: 'brightness(0) saturate(100%)'}}

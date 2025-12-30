@@ -1,5 +1,6 @@
 import React from 'react'
 import { Mail, Linkedin } from 'lucide-react'
+import iaapLogo from '/assets/images/iaap-logo.png'
 
 const Footer = () => {
   return (
@@ -8,7 +9,7 @@ const Footer = () => {
         <div className="relative">
           <div className="flex items-center gap-6 -ml-20">
             <img
-              src="/assets/images/iaap-logo.png"
+              src={iaapLogo}
               alt="IAAP Logo"
               className="w-40 h-40 object-contain"
             />
@@ -50,7 +51,7 @@ const Footer = () => {
               © 2025 a11ySolutions. Todos los derechos reservados
             </p>
             <a
-              href="/privacy-policy"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-300 hover:text-white underline transition-colors text-sm"

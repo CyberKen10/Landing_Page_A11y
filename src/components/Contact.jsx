@@ -206,7 +206,7 @@ const Contact = () => {
                       required
                     />
                     Acepto la{' '}
-                    <a href="/privacy-policy" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-300 underline ml-1">
+                    <a href="#" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-300 underline ml-1">
                       política de privacidad
                     </a>{' '}
                     *
