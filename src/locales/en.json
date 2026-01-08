@@ -109,7 +109,7 @@
       "website": "Website to analyze",
       "sector": "Sector",
       "message": "Additional message",
-      "privacy": "I accept the",
+      "privacy": "I accept the privacy policy",
       "submit": "Request access",
       "sending": "Sending...",
       "placeholders": {
@@ -336,10 +336,9 @@
     "close_modal": "Close modal",
     "logo_link": "a11ysolutions Logo, Redirects to main page",
     "logo_alt": "a11y Solutions Logo",
-    "iaap_logo_alt": "IAAP Logo, International Association of Accessibility Professionals Professional Member",
+    "iaap_logo_alt": "International Association of Accessibility Professionals Logo",
     "step1_image_alt": "Step 1 - Browser extension",
     "step2_image_alt": "Step 2 - Analysis and results",
-    "step3_image_alt": "Step 3 - Dashboard and results",
-    "video_description": "Complete demo showcasing the different functionalities of the A11i accessibility detector"
+    "step3_image_alt": "Step 3 - Dashboard and results"
   }
 }
