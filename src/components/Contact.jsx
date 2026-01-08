@@ -116,7 +116,13 @@ const Contact = () => {
         if (!value.trim()) {
           errors.url = t('contact.form.validation.website_required')
         } else {
-          errors.url = ''
+          // Validar formato de URL - permite con o sin protocolo
+          const urlPattern = /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/i;
+          if (!urlPattern.test(value.trim())) {
+            errors.url = t('contact.form.validation.website_invalid')
+          } else {
+            errors.url = ''
+          }
         }
         break
       case 'privacidad':
@@ -161,6 +167,15 @@ const Contact = () => {
     if (formData.email && !/\S+@\S+\.\S+/.test(formData.email)) {
       errors.email = t('contact.form.validation.email_invalid')
       hasErrors = true
+    }
+
+    // Validar formato de URL
+    if (formData.url && formData.url.trim()) {
+      const urlPattern = /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/i;
+      if (!urlPattern.test(formData.url.trim())) {
+        errors.url = t('contact.form.validation.website_invalid')
+        hasErrors = true
+      }
     }
 
     // Validar privacidad
@@ -368,7 +383,7 @@ const Contact = () => {
                       {t('contact.form.website')} *
                     </label>
                     <input
-                      type="url"
+                      type="text"
                       id="url"
                       name="url"
                       value={formData.url}
@@ -434,8 +449,8 @@ const Contact = () => {
                   </div>
                 </div>
 
-                <div className="form-group checkbox-group mb-6">
-                  <label className="flex items-start text-gray-300">
+                <div className="form-group mb-6">
+                  <label className="checkbox-group text-gray-300">
                     <input
                       type="checkbox"
                       id="privacidad"
@@ -443,7 +458,7 @@ const Contact = () => {
                       checked={formData.privacidad}
                       onChange={handleChange}
                       onBlur={() => handleBlur('privacidad')}
-                      className={`contact-form-field mr-3 mt-1 w-4 h-4 bg-gray-700 border-gray-600 rounded focus:ring-green-400 ${
+                      className={`contact-form-field w-4 h-4 bg-gray-700 border-gray-600 rounded focus:ring-green-400 ${
                         fieldErrors.privacidad && touchedFields.privacidad
                           ? 'border-red-500 focus:ring-red-400'
                           : 'text-green-600'
@@ -452,7 +467,7 @@ const Contact = () => {
                       aria-describedby={fieldErrors.privacidad && touchedFields.privacidad ? 'privacidad-error' : undefined}
                       required
                     />
-                    <div className="flex-1">
+                    <span className="ml-3">
                       {t('contact.form.privacy')}{' '}
                       <a href="https://accesibilidadweb.a11ysolutions.com/privacy-policy/" target="_blank" rel="noopener noreferrer" className="contact-privacy-link text-green-400 hover:text-green-300 underline ml-1">
                         {t('footer.privacy_policy')}
@@ -469,7 +484,7 @@ const Contact = () => {
                           {fieldErrors.privacidad}
                         </p>
                       )}
-                    </div>
+                    </span>
                   </label>
                 </div>
 
