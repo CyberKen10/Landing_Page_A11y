@@ -8,7 +8,7 @@ A11i Detector is your expert companion for web accessibility compliance. This po
 
 - **Automatically scans websites** for accessibility issues
 - **Generates detailed reports** highlighting problems and solutions
-- **Ensures compliance** with European Accessibility Law and WCAG guidelines
+- **Ensures compliance** with European Accessibility Act (EAA) and WCAG guidelines
 - **Acts as an accessibility expert** to help developers and organizations create inclusive web experiences
 
 The landing page itself demonstrates best practices in web accessibility, featuring skip links, semantic HTML, proper ARIA labels, and responsive design that works for all users.
@@ -23,7 +23,7 @@ The landing page itself demonstrates best practices in web accessibility, featur
 ## Features
 
 - Fully responsive design
-- Accessibility-first approach (WCAG 2.1 AA compliant)
+- Accessibility-first approach (WCAG 2.2 AA compliant)
 - Modern gradient backgrounds and animations
 - Contact forms with validation
 - Testimonial sections

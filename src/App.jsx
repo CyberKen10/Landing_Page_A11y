@@ -10,6 +10,7 @@ import Audience from './components/Audience'
 import FAQ from './components/FAQ'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import PageTitleUpdater from './components/PageTitleUpdater'
 import { LanguageProvider, useLanguage } from './LanguageContext'
 
 function AppContent() {
@@ -17,6 +18,7 @@ function AppContent() {
 
   return (
     <div className="App">
+      <PageTitleUpdater />
       <a href="#main-content" className="skip-link">{t('accessibility.skip_to_content')}</a>
       <a href="#footer" className="skip-link">{t('accessibility.skip_to_footer')}</a>
 

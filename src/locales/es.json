@@ -1,4 +1,8 @@
 {
+  "site": {
+    "title": "A11i Detector - Herramienta de Accesibilidad Web | WCAG 2.2",
+    "description": "A11i Detector - Herramienta gratuita de accesibilidad web para detectar problemas WCAG 2.2. Auditoría automática, evidencia visual y cumplimiento con la Ley Europea de Accesibilidad (EAA)."
+  },
   "nav": {
     "what_is": "¿Qué es?",
     "how_it_works": "¿Cómo funciona?",
@@ -14,7 +18,7 @@
     "cta_primary": "Solicitar acceso →",
     "cta_secondary": "Ver cómo funciona",
     "standards_title": "Alineado con estándares internacionales",
-    "standards": ["WCAG 2.1", "EN 301 549", "Ley Europea de Accesibilidad"]
+    "standards": ["WCAG 2.2", "EN 301 549", "Ley Europea de Accesibilidad (EAA)"]
   },
   "features": {
     "title": "¿Qué es A11i Detector?",
@@ -31,7 +35,7 @@
       },
       {
         "title": "Cumplimiento normativo",
-        "description": "Alineado con WCAG y la Ley Europea de Accesibilidad"
+        "description": "Alineado con WCAG y la Ley Europea de Accesibilidad (EAA)"
       }
     ],
     "functionality": "Funciona mediante una <strong>extensión de navegador</strong> y un <strong>Dashboard centralizado</strong>, permitiendo ejecutar tests sobre URLs o secciones específicas, revisar resultados históricos y gestionar los issues detectados de forma estructurada.",
@@ -43,7 +47,7 @@
     "items": [
       {
         "title": "Empresas y organizaciones",
-        "description": "Que necesitan mejorar la accesibilidad de sus productos digitales y avanzar hacia el cumplimiento de la Ley Europea de Accesibilidad."
+        "description": "Que necesitan mejorar la accesibilidad de sus productos digitales y avanzar hacia el cumplimiento de la Ley Europea de Accesibilidad (EAA)."
       },
       {
         "title": "Equipos de desarrollo y QA",
@@ -81,7 +85,7 @@
     ],
     "reviews": [
       {
-        "quote": "A11i Detector nos permitió identificar y corregir problemas críticos de accesibilidad en tiempo récord. Ahora cumplimos con la Ley Europea de Accesibilidad sin complicaciones.",
+        "quote": "A11i Detector nos permitió identificar y corregir problemas críticos de accesibilidad en tiempo récord. Ahora cumplimos con la Ley Europea de Accesibilidad (EAA) sin complicaciones.",
         "author": "Ana García",
         "position": "Directora de Tecnología en Empresa XYZ"
       },
@@ -137,6 +141,7 @@
         "email_invalid": "El formato del email no es válido. Por favor ingresa un email correcto.",
         "company_required": "La empresa es obligatoria. Por favor rellénala antes de continuar.",
         "website_required": "El sitio web es obligatorio. Por favor rellénalo antes de continuar.",
+        "website_invalid": "El formato del sitio web no es válido. Por favor ingresa una URL correcta (ej: www.tusitio.com o https://tusitio.com).",
         "sector_required": "El sector es obligatorio. Por favor selecciónalo antes de continuar.",
         "privacy_required": "Debes aceptar la política de privacidad antes de continuar."
       }
@@ -144,7 +149,7 @@
   },
   "footer": {
     "description": "Expertos en Accesibilidad Web y Digital.",
-    "about": "Ayudamos a empresas y entidades a cumplir con la Ley de Accesibilidad Europea, la norma técnica EN 301 549 y las pautas WCAG, asegurando una experiencia digital inclusiva y conforme a la legalidad.",
+    "about": "Ayudamos a empresas y entidades a cumplir con la Ley Europea de Accesibilidad (EAA), la norma técnica EN 301 549 y las pautas WCAG, asegurando una experiencia digital inclusiva y conforme a la legalidad.",
     "contact_title": "Contacto",
     "email": "dariana.lago@a11ysolutions.com",
     "linkedin": "LinkedIn",
@@ -248,9 +253,9 @@
       },
       "additional": {
         "title": "Y más...",
-        "description": "Validaciones adicionales según WCAG 2.1 y mejores prácticas de accesibilidad",
+        "description": "Validaciones adicionales según WCAG 2.2 y mejores prácticas de accesibilidad",
         "items": [
-          "Validaciones adicionales según WCAG 2.1",
+          "Validaciones adicionales según WCAG 2.2",
           "Detección de errores comunes de accesibilidad",
           "Análisis continuo de nuevos patrones"
         ]
@@ -267,7 +272,7 @@
       },
       {
         "question": "¿Qué nivel de cobertura ofrece?",
-        "answer": "A11i Detector cubre más del 70% de los problemas de accesibilidad más frecuentes según las pautas WCAG 2.1 Nivel AA, incluyendo teclado, foco, contraste, imágenes, navegación y responsive design."
+        "answer": "A11i Detector cubre más del 70% de los problemas de accesibilidad más frecuentes según las pautas WCAG 2.2 Nivel AA, incluyendo teclado, foco, contraste, imágenes, navegación y responsive design."
       },
       {
         "question": "¿Sobre qué páginas puedo ejecutar el análisis?",
